@@ -2,40 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39c6c138-a3e9-4161-ad7c-b02703e87576" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SQL/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/controllers/admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/controllers/error.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/controllers/shop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/data/cart.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/data/products.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/models/cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/models/product.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/public/css/cart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/public/css/forms.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/public/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/public/css/product.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/public/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/routes/admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/routes/shop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/util/database.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/util/path.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/views/404.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/views/admin/edit-product.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/views/admin/products.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/views/includes/add-to-cart.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/views/includes/end.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/views/includes/head.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/views/includes/navigation.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/views/shop/cart.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/views/shop/checkout.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/views/shop/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/views/shop/orders.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/views/shop/product-detail.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/views/shop/product-list.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/models/cart-item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/models/order-item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/models/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/models/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/controllers/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/controllers/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/controllers/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/controllers/shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC/models/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/models/product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL/controllers/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/controllers/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL/controllers/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/controllers/shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL/models/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/models/cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL/models/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/models/product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/public/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL/routes/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/routes/shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL/util/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/util/database.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL/views/shop/cart.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/views/shop/cart.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL/views/shop/orders.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/views/shop/orders.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQL/views/shop/product-detail.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/views/shop/product-detail.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +112,8 @@
       <workItem from="1570062234530" duration="1198000" />
       <workItem from="1570208904297" duration="4594000" />
       <workItem from="1570641759580" duration="646000" />
-      <workItem from="1570653507554" duration="3501000" />
+      <workItem from="1570653507554" duration="4218000" />
+      <workItem from="1571086832847" duration="2706000" />
     </task>
     <servers />
   </component>
