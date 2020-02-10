@@ -2,29 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39c6c138-a3e9-4161-ad7c-b02703e87576" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SQL/models/cart-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/models/order-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/models/order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/models/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/controllers/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/controllers/error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/controllers/shop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/data/cart.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/data/products.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/models/cart-item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/models/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/models/order-item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/models/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/models/product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/models/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/public/css/cart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/public/css/forms.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/public/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/public/css/orders.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/public/css/product.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/public/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/routes/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/routes/shop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/util/database.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/util/path.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/views/404.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/views/admin/edit-product.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/views/admin/products.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/views/includes/add-to-cart.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/views/includes/end.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/views/includes/head.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/views/includes/navigation.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/views/shop/cart.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/views/shop/checkout.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/views/shop/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/views/shop/orders.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/views/shop/product-detail.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mongoose/views/shop/product-list.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/controllers/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/controllers/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/controllers/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/controllers/shop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC/models/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/MVC/models/product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL/controllers/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/controllers/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL/controllers/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/controllers/shop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL/models/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/models/cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL/models/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/models/product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/public/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL/routes/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/routes/shop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL/util/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/util/database.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL/views/shop/cart.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/views/shop/cart.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL/views/shop/orders.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/views/shop/orders.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL/views/shop/product-detail.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/views/shop/product-detail.ejs" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,11 +67,17 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../QBOSyncNewItems" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Mongoose/package.json" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -66,19 +89,14 @@
       <recent name="C:\Users\DELL-BNLXTJ2\Documents\NodeJSLearning\MVC\views\admin" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="npm.SQL Start">
+  <component name="RunManager" selected="npm.Mongoose Start">
+    <configuration name="Mongoose Start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/Mongoose/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="SQL Start" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/SQL/package.json" />
       <command value="start" />
@@ -96,6 +114,7 @@
     <list>
       <item itemvalue="npm.start" />
       <item itemvalue="npm.SQL Start" />
+      <item itemvalue="npm.Mongoose Start" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -114,6 +133,9 @@
       <workItem from="1570641759580" duration="646000" />
       <workItem from="1570653507554" duration="4218000" />
       <workItem from="1571086832847" duration="2706000" />
+      <workItem from="1581293472364" duration="125000" />
+      <workItem from="1581293606556" duration="2592000" />
+      <workItem from="1581296491716" duration="1250000" />
     </task>
     <servers />
   </component>
@@ -135,5 +157,79 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581293689956">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581293689956" />
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1581293676536">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581293676536" />
+    <state width="412" height="911" key="GridCell.Tab.0.bottom" timestamp="1581297494649">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="412" height="911" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581297494649" />
+    <state width="412" height="911" key="GridCell.Tab.0.center" timestamp="1581297494649">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="412" height="911" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581297494649" />
+    <state width="412" height="911" key="GridCell.Tab.0.left" timestamp="1581297494649">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="412" height="911" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581297494649" />
+    <state width="412" height="911" key="GridCell.Tab.0.right" timestamp="1581297494649">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="412" height="911" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581297494649" />
+    <state width="412" height="911" key="GridCell.Tab.1.bottom" timestamp="1581297494649">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="412" height="911" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581297494649" />
+    <state width="412" height="911" key="GridCell.Tab.1.center" timestamp="1581297494649">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="412" height="911" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581297494649" />
+    <state width="412" height="911" key="GridCell.Tab.1.left" timestamp="1581297494649">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="412" height="911" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581297494649" />
+    <state width="412" height="911" key="GridCell.Tab.1.right" timestamp="1581297494649">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="412" height="911" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581297494649" />
+    <state width="412" height="911" key="GridCell.Tab.2.bottom" timestamp="1581297494649">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="412" height="911" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581297494649" />
+    <state width="412" height="911" key="GridCell.Tab.2.center" timestamp="1581297494649">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="412" height="911" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581297494649" />
+    <state width="412" height="911" key="GridCell.Tab.2.left" timestamp="1581297494649">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="412" height="911" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581297494649" />
+    <state width="412" height="911" key="GridCell.Tab.2.right" timestamp="1581297494649">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="412" height="911" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581297494649" />
+    <state width="412" height="911" key="GridCell.Tab.3.bottom" timestamp="1581297494650">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="412" height="911" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581297494650" />
+    <state width="412" height="911" key="GridCell.Tab.3.center" timestamp="1581297494649">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="412" height="911" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581297494649" />
+    <state width="412" height="911" key="GridCell.Tab.3.left" timestamp="1581297494649">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="412" height="911" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581297494649" />
+    <state width="412" height="911" key="GridCell.Tab.3.right" timestamp="1581297494649">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="412" height="911" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581297494649" />
   </component>
 </project>
